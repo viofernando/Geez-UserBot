@@ -349,20 +349,20 @@ async def koc(e):
         await e.edit("`GABUT`")
 
 
-@register(outgoing=True, pattern='^.sangean(?: |$)(.*)')
+@register(outgoing=True, pattern='^.v(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("`Kalo Sange Modal`")
+    await typew.edit("vio fernando")
     sleep(1)
-    await typew.edit("`Jangan Modal Kontol Doang`")
+    await typew.edit("kota solo")
     sleep(1)
-    await typew.edit("`Goblook Emang`")
+    await typew.edit("17 tahun")
     sleep(1)
-    await typew.edit("`Kelamaan Nge Jomblo Sih`")
+    await typew.edit("hobi coli")
     sleep(1)
-    await typew.edit("`Jadinya Gitu, Sange Berat`")
+    await typew.edit("gada bahan buat entut")
     sleep(1)
-    await typew.edit("`MAKANYA KALO HIDUP HARUS GANTENG KONTOOOLL`")
+    await typew.edit("jadinya gitu, sange berat")
 # Create by myself @localheart
 
 
